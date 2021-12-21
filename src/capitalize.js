@@ -9,6 +9,11 @@ function capitalize(string) {
 
         for (let i = 0; i < arrString.length; i++) {
 
+            newArr.push(callback(arrString[i]));
+    
+        }
+
+        return newArr;
  
     }
 
